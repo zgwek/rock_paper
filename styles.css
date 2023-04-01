@@ -1,0 +1,27 @@
+html, body, #gameDiv {
+    height: 90%;
+}
+body{
+    background-color: rgb(235, 146, 174);
+}
+#gameDiv{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 25px solid;
+    border-radius: 25px;
+    border-color: coral;
+    background-color: rgb(221, 194, 236);
+    width: 90%;
+    margin:auto;
+}
+button{
+    background-color: darkslateblue;
+    font-style: italic;
+    font-weight:bolder;
+    color: rgb(183, 151, 212);
+    align-items:flex-end;
+}
+h2{ 
+    border: 2px inset ;
+    text-align: center;
+    width: 75%;
+}
