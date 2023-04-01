@@ -5,6 +5,7 @@ body{
     background-color: rgb(235, 146, 174);
 }
 #gameDiv{
+    margin-top: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border: 25px solid;
     border-radius: 25px;
@@ -19,9 +20,16 @@ button{
     font-weight:bolder;
     color: rgb(183, 151, 212);
     align-items:flex-end;
+    width: 30%;
+    height: 100px;
+    margin-left: 10px;
+
 }
 h2{ 
     border: 2px inset ;
     text-align: center;
-    width: 75%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
 }
